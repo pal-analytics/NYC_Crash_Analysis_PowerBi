@@ -1,2 +1,44 @@
 # NYC_Crash_Analysis_PowerBi
 Power BI dashboard analyzing NYC motor vehicle collisions (2012–2025)
+Designed by Pallavi Mali
+
+This project analyzes 10M+ motor vehicle collisions in NYC (2012–2025) using Power BI. It highlights accident trends, injuries, fatalities, contributing factors, vehicle involvement, and high-risk locations.
+
+> Key Objectives
+- Identify annual, hourly, and monthly crash patterns
+- Pinpoint high-risk boroughs, streets, and zones
+- Examine major causes and contributing factors
+- Analyze vehicle types most frequently involved
+- Provide data-driven insights for public safety & traffic improvement
+
+> Dashboard Pages
+- Page 1 – Collision Overview: KPIs, borough distribution, top streets, yearly trends
+- Page 2 – When Crashes Happen: Hourly, weekday vs weekend, seasonal injury/fatality peaks
+- Page 3 – Why Crashes Happen: Contributing factors, vehicle type breakdown, street-level injuries
+
+> Key Insights
+- Weekdays account for ~7M crashes (74%)
+- Summer months show peak injuries & fatalities
+- Sedans & SUVs involved in ~80% of incidents
+- Data quality gaps: 3.1M records with “Unknown” borough/street, 6M crashes with “Unknown” cause
+
+> Tools & Techniques
+- Power BI Desktop
+- Power Query (data cleaning & transformation)
+- DAX (time intelligence, Top N, dual-axis visuals, tooltips)
+- Data modeling & storytelling
+
+> Repository Contents
+- NYC_Crash_Analysis_PowerBI.pbix – Full dashboard download
+https://1drv.ms/f/c/8161e6518593fd29/EgbbJ1Ui-_FJsxxAaPJ3YB8BKu4rm0jxUR8iXbh9YTj4MA?e=SKQLXj
+- Screenshots/ – Visual previews
+- DAX_Measures.txt – All formulas used
+- README.md – Project summary
+
+> Data Source
+- NYC Motor Vehicle Collisions dataset (via training institute, based on NYC Open Data)- Unable to upload the data as it is more than 25MB
+
+> About Me
+Pallavi Mali – Data Analyst skilled in Power BI, SQL, Python, Stats, ML DAX, Excel, and Business Analytics.
+- LinkedIn: linkedin.com/in/pallavi-mali-4b8888272
+- GitHub: github.com/pal-analytics
